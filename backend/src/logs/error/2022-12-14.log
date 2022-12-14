@@ -1,0 +1,28 @@
+2022-12-14 16:44:21 error: [POST] /api/products >> StatusCode:: 500, Message:: insert into "Product" ("Category", "Name", "SRate", "WQty") values ($1, $2, $3, $4) returning "Id", "Name", "WQty", "SRate", "Category" - null value in column "Id" of relation "Product" violates not-null constraint
+2022-12-14 16:52:22 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (/Users/mustafa/Projects/assessment/backend/node_modules/express/lib/application.js:635:24)
+    at App.listen (/Users/mustafa/Projects/assessment/backend/src/app.ts:35:14)
+    at Object.<anonymous> (/Users/mustafa/Projects/assessment/backend/src/server.ts:9:5)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module.m._compile (/Users/mustafa/Projects/assessment/backend/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/mustafa/Projects/assessment/backend/node_modules/ts-node/src/index.ts:1621:12)
+2022-12-14 17:55:35 error: [POST] /api/products/create >> StatusCode:: 400, Message:: WQty must be a number conforming to the specified constraints, SRate must be a number conforming to the specified constraints
+2022-12-14 18:12:08 error: [POST] /api/products/create >> StatusCode:: 400, Message:: WQty must be a number conforming to the specified constraints
+2022-12-14 18:13:36 error: [POST] /api/products/create >> StatusCode:: 400, Message:: WQty must be a number conforming to the specified constraints
+2022-12-14 18:14:00 error: [POST] /api/products/create >> StatusCode:: 400, Message:: WQty must be a number conforming to the specified constraints
+2022-12-14 18:19:16 error: [GET] /api/products >> StatusCode:: 500, Message:: Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?
+2022-12-14 18:21:40 error: [POST] /api/products/create >> StatusCode:: 400, Message:: property Id should not exist
+2022-12-14 18:21:43 error: [POST] /api/products/create >> StatusCode:: 400, Message:: property Id should not exist
+2022-12-14 18:02:09 error: [GET] /api/products >> StatusCode:: 500, Message:: connect ECONNREFUSED ::1:3306
+2022-12-14 18:08:12 error: [GET] /api/products >> StatusCode:: 500, Message:: connect ECONNREFUSED ::1:3306
+2022-12-14 18:11:15 error: [GET] /api/products >> StatusCode:: 500, Message:: connect ECONNREFUSED ::1:3306
+2022-12-14 18:12:43 error: [GET] /api/products >> StatusCode:: 500, Message:: connect ECONNREFUSED ::1:3306
+2022-12-14 18:14:16 error: [GET] /api/products >> StatusCode:: 500, Message:: connect ECONNREFUSED ::1:3306
+2022-12-14 18:14:41 error: [GET] /api/products >> StatusCode:: 500, Message:: connect ECONNREFUSED ::1:3306
+2022-12-14 18:23:32 error: [GET] /api/products >> StatusCode:: 500, Message:: connect ECONNREFUSED ::1:3306
+2022-12-14 18:25:05 error: [GET] /api/products >> StatusCode:: 500, Message:: connect ECONNREFUSED ::1:3306
